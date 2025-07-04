@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\task05\task05.csproj" />
+    <ProjectReference Include="..\task07\task07.csproj" />
   </ItemGroup>
 
 </Project>
