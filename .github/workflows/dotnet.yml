@@ -1,0 +1,23 @@
+name: .NET CI
+
+on:
+  push:
+    branches: ["task01", "main","task02", "task03","task04","task05","task07","task08" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+    - name: Restore 
+      run: dotnet restore
+    - name: Build
+      run: dotnet build 
+    - name: Test
+      run: dotnet test 
