@@ -26,6 +26,8 @@
   <ItemGroup>
     <ProjectReference Include="..\PluginLoader\PluginLoader.csproj" />
     <ProjectReference Include="..\PluginAttributes\PluginAttributes.csproj" />
+    <ProjectReference Include="..\PluginLibrary1\PluginLibrary1.csproj" />
+    <ProjectReference Include="..\PluginLibrary2\PluginLibrary2.csproj" />
   </ItemGroup>
 
 </Project>
