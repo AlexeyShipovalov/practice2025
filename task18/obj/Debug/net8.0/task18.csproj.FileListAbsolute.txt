@@ -1,0 +1,12 @@
+/home/dappi/practice2025/practice2025/task18/bin/Debug/net8.0/task18.deps.json
+/home/dappi/practice2025/practice2025/task18/bin/Debug/net8.0/task18.dll
+/home/dappi/practice2025/practice2025/task18/bin/Debug/net8.0/task18.pdb
+/home/dappi/practice2025/practice2025/task18/obj/Debug/net8.0/task18.GeneratedMSBuildEditorConfig.editorconfig
+/home/dappi/practice2025/practice2025/task18/obj/Debug/net8.0/task18.AssemblyInfoInputs.cache
+/home/dappi/practice2025/practice2025/task18/obj/Debug/net8.0/task18.AssemblyInfo.cs
+/home/dappi/practice2025/practice2025/task18/obj/Debug/net8.0/task18.csproj.CoreCompileInputs.cache
+/home/dappi/practice2025/practice2025/task18/obj/Debug/net8.0/task18.sourcelink.json
+/home/dappi/practice2025/practice2025/task18/obj/Debug/net8.0/task18.dll
+/home/dappi/practice2025/practice2025/task18/obj/Debug/net8.0/refint/task18.dll
+/home/dappi/practice2025/practice2025/task18/obj/Debug/net8.0/task18.pdb
+/home/dappi/practice2025/practice2025/task18/obj/Debug/net8.0/ref/task18.dll
