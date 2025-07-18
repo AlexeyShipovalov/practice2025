@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dappi/practice2025/practice2025/task18tests/task18tests.csproj": {}
+  },
+  "projects": {
+    "/home/dappi/practice2025/practice2025/task18/task18.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dappi/practice2025/practice2025/task18/task18.csproj",
+        "projectName": "task18",
+        "projectPath": "/home/dappi/practice2025/practice2025/task18/task18.csproj",
+        "packagesPath": "/home/dappi/.nuget/packages/",
+        "outputPath": "/home/dappi/practice2025/practice2025/task18/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dappi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ScottPlot": {
+              "target": "Package",
+              "version": "[4.1.71, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/dappi/practice2025/practice2025/task18tests/task18tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dappi/practice2025/practice2025/task18tests/task18tests.csproj",
+        "projectName": "task18tests",
+        "projectPath": "/home/dappi/practice2025/practice2025/task18tests/task18tests.csproj",
+        "packagesPath": "/home/dappi/.nuget/packages/",
+        "outputPath": "/home/dappi/practice2025/practice2025/task18tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dappi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/dappi/practice2025/practice2025/task18/task18.csproj": {
+                "projectPath": "/home/dappi/practice2025/practice2025/task18/task18.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+name: .NET CI
+
+on:
+  push:
+    branches: ["task01", "main","task02", "task03","task04","task05","task07","task08","task10","task13","task14" ,"task17","task18"]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+    - name: Restore 
+      run: dotnet restore
+    - name: Build
+      run: dotnet build 
+    - name: Test
+      run: dotnet test 
+    - name: Generate reports and plots
+      run: |
+        dotnet new console -n ReportGenerator --force
+        cd ReportGenerator
+        dotnet add reference ../task18/task18.csproj
+        dotnet add package ScottPlot --version 4.1.71
+        dotnet run --no-restore
+        
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: reports
+        path: |
+          ReportGenerator/execution_report.txt
+          ReportGenerator/execution_plot.png
