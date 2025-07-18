@@ -100,3 +100,9 @@
 /home/dappi/practice2025/practice2025/task18tests/obj/Debug/net8.0/task18tests.pdb
 /home/dappi/practice2025/practice2025/task18tests/obj/Debug/net8.0/task18tests.genruntimeconfig.cache
 /home/dappi/practice2025/practice2025/task18tests/obj/Debug/net8.0/ref/task18tests.dll
+/home/dappi/practice2025/practice2025/task18tests/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/home/dappi/practice2025/practice2025/task18tests/bin/Debug/net8.0/ScottPlot.dll
+/home/dappi/practice2025/practice2025/task18tests/bin/Debug/net8.0/System.Drawing.Common.dll
+/home/dappi/practice2025/practice2025/task18tests/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/home/dappi/practice2025/practice2025/task18tests/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/dappi/practice2025/practice2025/task18tests/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll

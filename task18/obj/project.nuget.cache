@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "rO6U7Lq81mIv2mBfTlmdYbEr+05utyxk/YjlCigpb/aKUdVQTKJcnw/jcxRB74vn7mgPQmux1CgrTmyql80iBw==",
+  "dgSpecHash": "2iiiWCZxGOzEMS+MT+jfwHbMqLODUc/ygeSPDc/ecoM67dpI5RHAoLyzGAnzWFFtDGhtwNHcEsnXKJ5vfVkwsg==",
   "success": true,
   "projectFilePath": "/home/dappi/practice2025/practice2025/task18/task18.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/dappi/.nuget/packages/microsoft.netcore.platforms/3.1.4/microsoft.netcore.platforms.3.1.4.nupkg.sha512",
+    "/home/dappi/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/home/dappi/.nuget/packages/scottplot/4.1.71/scottplot.4.1.71.nupkg.sha512",
+    "/home/dappi/.nuget/packages/system.drawing.common/4.7.2/system.drawing.common.4.7.2.nupkg.sha512",
+    "/home/dappi/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -21,3 +21,18 @@ jobs:
       run: dotnet build 
     - name: Test
       run: dotnet test 
+    - name: Generate reports and plots
+      run: |
+        dotnet new console -n ReportGenerator --force
+        cd ReportGenerator
+        dotnet add reference ../task18/task18.csproj
+        dotnet add package ScottPlot --version 4.1.71
+        dotnet run --no-restore
+        
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: reports
+        path: |
+          ReportGenerator/execution_report.txt
+          ReportGenerator/execution_plot.png
