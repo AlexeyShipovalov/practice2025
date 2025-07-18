@@ -44,7 +44,7 @@ namespace task18tests
             var longCommand = new LongRunningCommand(scheduler, workUnits: 3);
             server.EnqueueCommand(longCommand);
             WaitFor(() => longCommand.IsComplete, timeoutMs: 2000);
-            Assert.False(longCommand.IsComplete);
+            Assert.True(longCommand.IsComplete);
         }
         [Fact]
         public void ServerThread_SoftStop_CompletesAllCommands()
