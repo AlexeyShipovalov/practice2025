@@ -2,7 +2,7 @@ name: .NET CI
 
 on:
   push:
-    branches: ["task01", "main","task02", "task03","task04","task05","task07","task08","task10","task13","task14" ,"task17","task18"]
+    branches: ["task01", "main","task02", "task03","task04","task05","task07","task08","task10","task13","task14" ,"task17","task18","task19"]
   pull_request:
     branches: [ "main" ]
 
@@ -21,3 +21,5 @@ jobs:
       run: dotnet build 
     - name: Test
       run: dotnet test 
+    - name: Run
+      run: dotnet run

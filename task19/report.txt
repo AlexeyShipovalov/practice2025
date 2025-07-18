@@ -1,0 +1,15 @@
+[08:08:05.868] TestCommand 1 вызов 1
+[08:08:05.874] TestCommand 1 вызов 2
+[08:08:05.874] TestCommand 1 вызов 3
+[08:08:05.874] TestCommand 2 вызов 1
+[08:08:05.874] TestCommand 2 вызов 2
+[08:08:05.874] TestCommand 2 вызов 3
+[08:08:05.874] TestCommand 3 вызов 1
+[08:08:05.874] TestCommand 3 вызов 2
+[08:08:05.874] TestCommand 3 вызов 3
+[08:08:05.874] TestCommand 4 вызов 1
+[08:08:05.874] TestCommand 4 вызов 2
+[08:08:05.874] TestCommand 4 вызов 3
+[08:08:05.874] TestCommand 5 вызов 1
+[08:08:05.874] TestCommand 5 вызов 2
+[08:08:05.875] TestCommand 5 вызов 3
