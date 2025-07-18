@@ -22,4 +22,4 @@ jobs:
     - name: Test
       run: dotnet test 
     - name: Run
-      run: dotnet run --project practice2025/practice2025/task19/task19.csproj
+      run: dotnet run --project practice2025/task19/task19.csproj
